@@ -16,3 +16,4 @@
 12. Notifications
 13. Build & Release cycle
 14. Landing Page
+15. Log Management

@@ -1,8 +1,8 @@
 {
-  "name": "my-new-project",
-  "productName": "my-new-project",
+  "name": "cli-assist",
+  "productName": "cli-assist",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "Execute, Save & Share Commands :)",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
