@@ -81,26 +81,17 @@ module.exports = {
       cmd: 'mongo',
       commands: [
         {
-          name: 'create',
-          desc: 'to create a docker container',
+          name: 'run',
+          desc: 'to create a mongo db',
           cmd: 'create',
           instances: [
             {
-              name: 'create app1',
+              name: 'mongo app1',
               params: [
                 '--env-file',
                 'app1.env',
                 '--name',
                 'app1-container',
-              ],
-            },
-            {
-              name: 'create app2',
-              params: [
-                '--env-file',
-                'app2.env',
-                '--name',
-                'app2-container',
               ],
             },
             {
